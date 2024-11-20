@@ -14,7 +14,7 @@ function DeleteLivro() {
                 navigate('/'); // Redireciona para a página inicial
             })
             .catch(err => {
-                console.error('Erro ao excluir o livro:', err);
+                console.error('Erro ao excluir oo livro:', err);
             });
     }, [id, navigate]); // Executa o efeito apenas quando 'id' e 'navigate' mudarem
 
