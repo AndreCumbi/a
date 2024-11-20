@@ -8,7 +8,7 @@ function DeleteLivro() {
 
     useEffect(() => {
         // Chama a API para excluir o livro assim que o componente for montado
-        axios.delete(`http://localhost:8081/delete/${id}`)
+        axios.delete(`https://back-akjx.onrender.comcd/create/delete/${id}`)
             .then(res => {
                 console.log('Livro excluído com sucesso:', res);
                 navigate('/'); // Redireciona para a página inicial
