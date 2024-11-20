@@ -13,7 +13,7 @@ function CriarLivro(){
     function handleSubmit(event){
         event.preventDefault();
         const stock = 10;
-        axios.post('https://back-akjx.onrender.comcd/create',{titulo, autor, descricao, preco, stock})
+        axios.post('https://back-akjx.onrender.com/create',{titulo, autor, descricao, preco, stock})
         .then(res => {
             console.log(res);
             navigate('/');
